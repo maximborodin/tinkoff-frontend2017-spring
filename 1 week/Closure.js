@@ -1,6 +1,5 @@
-for (var i = 0; i < 10; i++) {
-    let j = i;
+for (let i = 0; i < 10; i++) {
     setTimeout(function(){
-        console.log(j);
+        console.log(i);
     }, 1000);
 }
