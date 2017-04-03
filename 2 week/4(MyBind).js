@@ -3,7 +3,7 @@
 function myBind(func, context) {
   return function() {
     return func.apply(context, arguments);
-  }
+  };
 }
 
 function f() {
